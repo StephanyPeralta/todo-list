@@ -1,6 +1,6 @@
 # Todo List App
 
-This is a basic app that allows you to delete or add items to your “personal” and “work” to-do list. This app save your elements in a DB.
+This is a basic app that allows you to delete or add items in your “personal” and “work” list and those elements are saved in a DB.
 
 ## Usage
 
@@ -20,4 +20,4 @@ This is a basic app that allows you to delete or add items to your “personal�
 
 ## Live Mode
 
-See live [Todo List Project](https://todolist-steph.herokuapp.com/).
+See [Todo List Project](https://todolist-steph.herokuapp.com/).
