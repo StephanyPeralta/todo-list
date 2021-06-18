@@ -56,7 +56,7 @@ app.get("/", function(req, res) {
       });
       res.redirect("/");
     } else {
-      res.render("list", {listTitle: "Today", newListItems: foundItems});
+      res.render("list", {listTitle: "Personal", newListItems: foundItems});
     }
   });
 });
@@ -90,7 +90,7 @@ app.post("/", function(req, res){
     name: itemName
   });
 
-  if (listName === "Today") {
+  if (listName === "Personal") {
     item.save();
     res.redirect("/");
   } else {
@@ -106,7 +106,7 @@ app.post("/delete", function(req, res) {
   const checkedItemId = req.body.checkbox;
   const listName = req.body.listName;
 
-  if (listName === "Today") {
+  if (listName === "Personal") {
     Item.findByIdAndRemove(checkedItemId, function(err) {
       if (!err) {
         console.log("Successfully deleted checked item.");
@@ -122,9 +122,6 @@ app.post("/delete", function(req, res) {
   }
 });
 
-app.get("/about", function(req, res){
-  res.render("about");
-});
 
 let port = process.env.PORT;
 if (port == null || port == "") {
