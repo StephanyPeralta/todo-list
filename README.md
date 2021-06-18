@@ -1,6 +1,6 @@
 # Todo List App
 
-This is a basic app that allows you to delete or add items in your “personal” and “work” list and those elements are saved in a DB.
+This is a basic app that allows you to delete or add items in your “personal” and “work” list, those elements are saved in a DB.
 
 ## Usage
 
