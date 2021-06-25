@@ -1,6 +1,6 @@
 # Todo List App
 
-This is a basic web application connected with MongoDB that allows you to delete or add items from both your "personal" and "work" lists.
+This is a basic web app connected with MongoDB that allows you to delete or add items from both your "personal" and "work" lists.
 
 ## Usage
 
