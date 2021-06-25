@@ -1,6 +1,6 @@
 # Todo List App
 
-This is a basic app that allows you to delete or add items in your “personal” and “work” list, those elements are saved in a DB.
+This is a basic web application connected with MongoDB that allows you to delete or add items from both your "personal" and "work" lists.
 
 ## Usage
 
@@ -8,7 +8,7 @@ This is a basic app that allows you to delete or add items in your “personal�
 
 * To add more items, hit the plus button.
 * To delete items, select the box on the left.
-* To change list, select "Go to Work list".
+* To change list, select "Go to Work list" or "Return".
 
 ## Tools
 
