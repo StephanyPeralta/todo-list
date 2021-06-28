@@ -10,7 +10,7 @@ This is a basic web app connected with MongoDB that allows you to delete or add 
 * To delete items, select the box on the left.
 * To change list, select "Go to Work list" or "Return".
 
-## Tools
+## Tools & Technologies
 
 * EJS  
 * CSS
