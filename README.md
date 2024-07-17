@@ -12,6 +12,7 @@ This is a basic web app connected with MongoDB that allows you to delete or add 
 
 ## Tools & Technologies
 
+* JavaScript
 * EJS  
 * CSS
 * Node.js
